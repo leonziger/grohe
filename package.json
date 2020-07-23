@@ -1,9 +1,9 @@
 {
-  "name": "invite-transport",
+  "name": "grohe",
   "version": "1.0.0",
   "author": "Leonid Zichkov",
   "private": true,
-  "homepage": "https://leonziger.github.io/invite-transport",
+  "homepage": "https://leonziger.github.io/grohe",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server",
     "build": "cross-env NODE_ENV=production webpack",
