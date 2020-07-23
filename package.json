@@ -47,6 +47,7 @@
   "dependencies": {
     "bootstrap": "^3.4.1",
     "jquery": "^3.4.1",
+    "owl.carousel.es6": "^3.0.2",
     "vue": "^2.6.10"
   }
 }

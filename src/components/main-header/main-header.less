@@ -1,0 +1,86 @@
+.main-header {
+
+  &__top {
+    background-color: @darkblue;
+
+    &-container {
+      min-height: 124px;
+      background-image: url(./main-header.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      @media(max-width: 374px) {
+        min-height: 118px;
+      }
+    }
+  }
+
+  &__bottom {
+
+    &-container {
+      min-height: 88px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      @media(max-width: 767px) {
+        flex-direction: column;
+      }
+    }
+  }
+
+  &__logo {
+    margin-left: -3px;
+
+    @media(max-width: 991px) {
+      margin-left: 0;
+    }
+
+    @media(max-width: 767px) {
+      margin-top: 20px;
+      margin-bottom: 34px;
+    }
+  }
+
+  &__brand {
+    margin-right: -8px;
+
+    @media(max-width: 991px) {
+      margin-right: 0;
+    }
+
+    @media(max-width: 767px) {
+      margin-bottom: 14px;
+    }
+  }
+
+  &__phone {
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  &__contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 290px;
+    margin: 7px 0 0 -38px;
+
+    @media(max-width: 991px) {
+      margin: 0;
+    }
+
+    @media(max-width: 767px) {
+      margin-bottom: 12px;
+    }
+  }
+
+  &__timetable {
+    font-size: 13px;
+    color: @gray;
+  }
+}
+

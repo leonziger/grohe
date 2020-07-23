@@ -1,0 +1,210 @@
+.p_item {
+  font: 14px 'Regular', Arial, sans-serif;
+  color: #000;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  height: 100%;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 12px 2px 4px;
+
+  &:hover {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 3px 4px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  .des {
+    padding: 15px;
+    display: block;
+
+    button {
+      cursor: pointer;
+      width: 24px;
+      height: 21px;
+      margin-left: 16px;
+    }
+
+    .btn {
+      padding: 12px 14px;
+    }
+
+    .city {
+      padding-left: 26px;
+
+      img {
+        width: 18px;
+        left: 0;
+      }
+    }
+
+    .compare {
+      background: url(https://cdn.santehnika-tut.ru/sandesign/imgs/icons/scale_empty.svg) no-repeat;
+      background-size: 22px;
+
+      &:hover {
+        background: url(https://cdn.santehnika-tut.ru/sandesign/imgs/icons/scale_outline.svg) no-repeat;
+        background-size: 22px;
+      }
+    }
+
+    .deferred {
+        background: url(https://cdn.santehnika-tut.ru/sandesign/imgs/icons/heart_empty.svg) no-repeat;
+        background-size: 22px;
+
+      &:hover {
+        background: url(https://cdn.santehnika-tut.ru/sandesign/imgs/icons/heart_outline.svg) no-repeat;
+        background-size: 22px;
+      }
+    }
+
+    .devider {
+      display: block;
+      height: 1px;
+      margin: 10px 0;
+      background-color: #e0e0e0;
+    }
+
+    .title {
+      color: inherit;
+      text-decoration: none;
+      line-height: 1.4;
+      display: block;
+      margin: 0 0 10px;
+      display: -webkit-box;
+      display: -moz-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 4;
+      overflow: hidden;
+      height: 78.4px;
+    }
+
+    .price {
+      margin: 0 0 15px;
+      color: #000;
+      font: 22px 'Regular', Arial, sans-serif;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .rating {
+      display: flex;
+      display: -webkit-flex;
+      align-items: center;
+      margin: 0 0 10px;
+      flex-wrap: wrap;
+
+      .revs {
+        margin: 0 0 0 10px;
+        color: #00a6df;
+        font: 14px 'Regular', Arial, sans-serif;
+        border-bottom: 1px dashed #00a6df;
+      }
+    }
+
+    .vars {
+        cursor: pointer;
+        color: #00a6df;
+        border-bottom: 1px dashed #00a6df;
+      }
+  }
+
+  .rat_list {
+
+    .star {
+      cursor: pointer;
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      margin: 0 2px 0 0;
+      background: url(https://cdn.santehnika-tut.ru/sandesign/imgs/icons/star_empty.svg) 50% 50% no-repeat;
+      background-size: cover;
+    }
+  }
+
+  .img {
+    border-bottom: 1px solid #e0e0e0;
+    display: block;
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .thumb {
+    position: absolute;
+    z-index: 10;
+    top: 15px;
+    left: 15px;
+    font-size: 13px;
+    color: #fff;
+
+    span {
+      margin: 0 5px 5px 0;
+      float: left;
+      padding: 3px 10px;
+      border-radius: 4px;
+    }
+
+    .wh {
+      background-color: #006400;
+    }
+
+    .bp {
+      background-color: #ffd248;
+      color: #151515;
+    }
+
+    .lp {
+      background-color: #9f1c1c;
+    }
+
+    .ex {
+      background-color: #693790;
+    }
+  }
+}
+
+#menu_tech {
+  height: 46px;
+  color: #999;
+  margin-top: 10px;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+.flex_w {
+  display: flex;
+  flex-flow: row wrap;
+  flex-wrap: wrap;
+
+  &::-webkit-scrollbar-track {
+    border-width: 0;
+  }
+
+  &::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-width: 1px 1px 1px 2px;
+    border-color: #00a4dd;
+    background-color: #00a4dd;
+  }
+
+  &.__ai_c {
+    align-items: center;
+  }
+
+  &.__jc_sb {
+    justify-content: space-between;
+  }
+}
+
+.pos_rel {
+  position: relative;
+}
+
+.ypos_ab {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
