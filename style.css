@@ -1742,12 +1742,6 @@ h2,
 .btn.__empty.__bl:active {
   background-color: #28a9d8;
 }
-.main-wrapper {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
-  outline: 1px solid red;
-}
 .main-header__top {
   background-color: #142F4F;
 }
@@ -2039,7 +2033,12 @@ h2,
   }
 }
 .main-footer__nav {
-  margin-bottom: -5px;
+  margin-bottom: 7px;
+}
+@media (max-width: 499px) {
+  .main-footer__nav {
+    margin-bottom: -5px;
+  }
 }
 .main-footer__menu {
   color: rgba(255, 255, 255, 0.8);
