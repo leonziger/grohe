@@ -21,3 +21,4 @@ $('.carousel.owl-carousel').owlCarousel({
       }
     }
 });
+
