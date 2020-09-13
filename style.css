@@ -1419,6 +1419,9 @@ h2,
           transform: translateX(-50%);
   width: auto;
 }
+.owl-carousel .owl-item {
+  width: auto;
+}
 .icon {
   display: inline-block;
   flex-shrink: 0;
